@@ -27,16 +27,16 @@
                 <nav class="header-nav">
                     <ul class="header-nav__list">
                         <li class="header-nav__list__item">
-                            <a href="" class="header-nav__list__link">О нас</a>
+                            <a href="#section-about" class="header-nav__list__link">О нас</a>
                         </li>
                         <li class="header-nav__list__item">
-                            <a href="" class="header-nav__list__link">Продукция</a>
+                            <a href="#section-catalog" class="header-nav__list__link">Продукция</a>
                         </li>
                         <li class="header-nav__list__item">
-                            <a href="" class="header-nav__list__link">Проекты</a>
+                            <a href="#section-projects" class="header-nav__list__link">Проекты</a>
                         </li>
                         <li class="header-nav__list__item">
-                            <a href="" class="header-nav__list__link">Контакты</a>
+                            <a href="#section-contacts" class="header-nav__list__link">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -44,7 +44,7 @@
             <div class="section-top-content">
                 <h1 class="section-top__title">ПРОИЗВОДСТВО И МОНТАЖ ОКРАСОЧНО-СУШИЛЬНЫХ КАМЕР ЛЮБЫХ РАЗМЕРОВ</h1>
                 <div class="section-top__subtitle">Решаем задачи любой сложности в любой точке России</div>
-                <a href="" class="section-top__link">Смотреть</a>
+                <a href="#section-catalog" class="section-top__link">Смотреть</a>
                 <div class="section-top-info">
                     <div class="logo">
                         <img loading="lazy" src="./assets/images/svg/logo-dark.svg" alt="Технологии Промышленного Сервиса" width="265" height="55">     
@@ -62,12 +62,12 @@
                             <span>Напишите нам</span>
                         </a>
                     </div>
-                    <a href="" class="section-top-info__link">Получить консультацию</a>
+                    <a href="#section-contacts" class="section-top-info__link">Получить консультацию</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-about">
+    <section class="section-about" id="section-about">
         <div class="container">
             <h5 class="section__title">О компании</h5>
             <p class="section-about__descr">Мы производим комплексы для сушки, подготовки и нанесения лакокрасочных покрытий и организации технологических процессов окраски. Широкий выбор окрасочно-сушильных камер различных габаритов и в различной комплектации для решения задач по окраске легковых и грузовых автомобилей, железнодорожного, водного, авиационного транспорта, металлоконструкций, мебели и других изделий., а также посты для создания требуемых технологических условий при проведении подготовительных работ к окраске. Вспомогательное оборудование для шлифовки, покраски, сушки, полировки поверхностей</p>
@@ -115,7 +115,7 @@
             </ul>
         </div>
     </section>
-    <section class="section-catalog">
+    <section class="section-catalog" id="section-catalog">
         <div class="container">
             <ul class="section-catalog-list">
                 <li class="section-catalog-list__item">
@@ -125,7 +125,7 @@
                         <div class="section-catalog-list__item__price">
                             от 1 450 000 ₽
                         </div>
-                        <a href="" class="section-catalog-list__item__link">Заказать</a>
+                        <a href="#section-contacts" class="section-catalog-list__item__link">Заказать</a>
                     </div>
                 </li>
                 <li class="section-catalog-list__item">
@@ -135,7 +135,7 @@
                         <div class="section-catalog-list__item__price">
                             от 590 000 ₽
                         </div>
-                        <a href="" class="section-catalog-list__item__link">Заказать</a>
+                        <a href="#section-contacts" class="section-catalog-list__item__link">Заказать</a>
                     </div>
                 </li>
             </ul>
@@ -172,7 +172,7 @@
             </ul>
         </div>
     </section>
-    <section class="section-projects">
+    <section class="section-projects" id="section-projects">
         <div class="container">
             <h5 class="section__title" style="text-align: center;">РЕАЛИЗОВАННЫЕ ПРОЕКТЫ</h5>
             <ul class="section-projects-list">
@@ -251,6 +251,90 @@
             </ul>
         </div>
     </section>
+    <section class="section-request">
+        <div class="container">
+            <h5 class="section__title" style="text-align: center;">Отправить запрос на изготовление нестандартной камеры</h5>
+            <div class="section-request-content">
+                <form class="form">
+                    <div class="form__title">Заполните форму</div>
+                    <div class="form__subtitle">Ответим через 15 минут</div>
+                    <div class="form-main">
+                        <input type="text" minlength="3" maxlength="15" required class="form__input" placeholder="Ваше имя" name="username-first">
+                        <input type="text" minlength="11" maxlength="11" required  class="form__input" placeholder="Ваш телефон" name="telephone-first">
+                        <input type="email" required class="form__input" placeholder="Ваша почта" name="email-first">
+                        <textarea name="message-first" class="form__input" placeholder="Ваше сообщение"></textarea>
+                        <button type="submit" class="form__button">Заказать обратный звонок</button>
+                    </div>
+                </form>
+                <img loading="lazy" src="./assets/images/png/special.png" width="540" height="380" alt="Нестандартная ОСК">
+            </div>
+        </div>
+    </section>
+    <section class="section-contacts" id="section-contacts">
+        <div class="container">
+            <div class="section-contacts-content">
+                <div class="section-contacts-content-left">
+                    <h5 class="section__title">Контакты</h5>
+                    <div class="section-contacts__item">
+                        <span>Офис:</span> Санкт-Петербург,ул. Заусадебная, д. 15, стр. 5
+                    </div>
+                    <div class="section-contacts__item">
+                        <span>Склад:</span> Санкт-Петербург,ул. Заусадебная, д. 15
+                    </div>
+                    <div class="section-contacts__item">
+                        <span>Режим работы:</span> Пн-Пт: 09:00-20:00, Сб-Вс: 09:00-20:00
+                    </div>
+                    <div class="section-contacts__item">
+                        <span>Телефон:</span><a href="tel:88432111900" style="text-decoration: underline;">8-843-211-19-00</a>
+                    </div>
+                    <div class="section-contacts__item">
+                        <span>Email:</span><a href="mailto:infopaint@chamber.ru" style="text-decoration: underline;">infopaint@chamber.ru</a>
+                    </div>
+                </div>
+                <div class="section-contacts-content-right">
+                    <div class="form">
+                        <div class="logo">
+                            <img loading="lazy" src="./assets/images/svg/logo-dark.svg" alt="Технологии Промышленного Сервиса" width="265" height="55">     
+                        </div>
+                        <a href="tel:88432111900" class="section-top-info__telephone">8-843-211-19-00</a>
+                        <div class="section-top-info__adress">г. Казань, ул. Михаила Миля, д. 33а</div>
+                        <div class="form-main">
+                            <input type="number" type="text" minlength="11" maxlength="11" required class="form__input" placeholder="Ваш телефон" name="telephone-second">
+                            <button type="submit" class="form__button">Заказать обратный звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-right">
+                    <div class="logo">
+                        <img loading="lazy" src="./assets/images/svg/logo-dark.svg" alt="Технологии Промышленного Сервиса" width="265" height="55">     
+                    </div>
+                    <a href="tel:88432111900" class="footer__telephone">8-843-211-19-00</a>
+                    <a href="mailto:infopaint@chamber.ru" class="footer__email">infopaint@chamber.ru</a>
+                    <p class="footer__text">Информация на данном интернет-сайте носит исключительно ознакомительный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса РФ. Поставщик оставляет за собой право без предварительного уведомления вносить изменения в стоимость, конструкцию и комплектацию изделий</p>
+                </div>
+                <div class="footer-content-left">
+                    Социальные сети:
+                    <div class="socials">
+                        <a href="" class="socials__link">
+                            <img loading="lazy" src="./assets/images/svg/whatsup.svg" alt="Whats Up" width="50" height="50">
+                        </a>
+                        <a href="" class="socials__link">
+                            <img loading="lazy" src="./assets/images/svg/telegram.svg" alt="Telegram" width="50" height="50">
+                        </a>
+                        <a href="" class="socials__link">
+                            <img loading="lazy" src="./assets/images/svg/vkontakte.svg" alt="VK" width="50" height="50">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 <script src="./assets/js/script.js"></script>
 </body>
 <script type="application/ld+json">
