@@ -1,0 +1,57 @@
+@import './vendors/normalize.css';
+@import './vendors/typography.css';
+@import './vendors/vars.css';
+
+@import './sections/section-top.css';
+@import './sections/section-about.css';
+@import './sections/section-advantages.css';
+@import './sections/section-catalog.css';
+@import './sections/section-reasons.css';
+@import './sections/section-projects.css';
+
+@import './components/header.css';
+
+*{
+    font-family: 'Roboto';
+    color: var(--white);
+}
+
+body{
+    background: #1C222A;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: 700;
+}
+
+div, p, span{
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.section__title{
+    color: var(--yellow);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+section:not(.section-top){
+    padding: 40px 0px;
+}
+
+@media(max-width: 870px){
+    .section__title{
+        font-size: 34px;
+    }
+}
