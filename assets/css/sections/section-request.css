@@ -35,7 +35,7 @@
     height: 40px;
     border-radius: 20px;
     padding: 10px;
-    color: #BDBDBD;
+    color: var(--gray);
 }
 
 .form__input:not(:first-child){
